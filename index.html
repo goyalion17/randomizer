@@ -3,20 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Inclusive+Sans:regular,italic" rel="stylesheet"/>
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>Random Number Generator</title>
   </head>
   <body>
-   <div class="randomizer">
-     <div class="date">
-        <label for="min">Min:</label>
-        <input type="number" id="min" class="min inp" />
-        <label for="max">Max:</label>
+    <div class="randomizer">
+      <h1 class="title">Random Number Generator</h1>
+      <div class="date">
+        <label for="min" class="label">Min:</label>
+        <input type="number" id="min" class="min inp" value="1" />
+        <label for="max" class="label">Max:</label>
         <input type="number" id="max" class="max inp" />
-     </div>
+      </div>
       <button type="submit" class="button">Result</button>
       <div class="result"></div>
-    </div> 
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
